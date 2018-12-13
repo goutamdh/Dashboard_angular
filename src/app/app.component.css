@@ -1,0 +1,12 @@
+.navbar-brand {
+    width:200px;
+    }
+ 
+
+  .logo-wrapper img{max-height:50px}
+
+  @media (min-width: 1200px){
+  .navbar, {
+      padding-left: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+<!-- <header>
+
+    <mdb-navbar [containerInside]="false" SideClass="navbar navbar-expand-lg navbar-light white">
+
+        
+        <logo class="">
+            <a class="navbar-brand logo logo-wrapper" href="https://mdbootstrap.com/angular/angular-bootstrap-getting-started/">
+                <img src="../../../../assets/img/logo-1.png" class="img-fluid" alt="">
+            </a>
+        </logo>
+</mdb-navbar>
+</header> -->
+<div class="row">
+  <div class="col-md-3 mt-5">
+<app-navigation></app-navigation>
+</div>
+<div class="col-md-9">
+<main [ngClass]="{'py-0 px-0 my-0 mx-0': specialPage}"  class="row mx-lg-5" >
+    <div class="col-md-12">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+<app-footer></app-footer>
+</div>
+</div>
